@@ -8,7 +8,7 @@ import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 const queryClient = new QueryClient()
 
 // Use a placeholder project ID for development
-const projectId = process.env.WALLET_CONNECT_PROJECT_ID || ''
+const projectId = process.env.VITE_WALLETCONNECT_PROJECT_ID || ''
 
 // Create a metadata object
 const metadata = {
